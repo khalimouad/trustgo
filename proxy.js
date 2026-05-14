@@ -14,7 +14,7 @@ const ACCESS_RULES = [
   { prefix: '/admin', roles: ['admin'] },
 ];
 
-export function middleware(req) {
+export function proxy(req) {
   const { pathname } = req.nextUrl;
   const role = req.cookies.get('trustgo_role')?.value;
 
