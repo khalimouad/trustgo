@@ -1,0 +1,21 @@
+{
+  "name": "trustgo-next",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "next build",
+    "verify:next": "node scripts/verify-next-version.mjs",
+    "prebuild": "npm run verify:next"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
