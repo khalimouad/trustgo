@@ -1,0 +1,1 @@
+export default function Page(){return <main className='container'><h1>Nos tarifs</h1><div className='grid4'><article><h3>Standard</h3><p>30 MAD</p></article><article><h3>Express</h3><p>50 MAD</p></article><article><h3>Urgent</h3><p>80 MAD</p></article><article><h3>Pro</h3><p>Sur devis</p></article></div></main>}

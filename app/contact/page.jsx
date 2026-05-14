@@ -1,0 +1,1 @@
+export default function Page(){return <main className='container'><h1>Contactez-nous</h1><div className='booking'><form className='card'><input placeholder='Nom'/><input placeholder='Email'/><textarea placeholder='Message'/><button type='button' className='btn'>Envoyer</button></form><div className='card'><p>WhatsApp rapide</p><p>Hotline urgence 24/7</p></div></div></main>}
