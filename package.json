@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build"
+    "vercel-build": "next build",
+    "verify:next": "node scripts/verify-next-version.mjs",
+    "prebuild": "npm run verify:next"
   },
   "dependencies": {
     "next": "16.2.6",
